@@ -1,0 +1,25 @@
+{
+  "name": "node-red-contrib-webshot",
+  "version": "0.0.1",
+  "description": "A Node-RED node of Webshot provides for taking webpage screenshots.",
+  "dependencies": {
+    "webshot": "~0.18.0"
+  },
+  "keywords": [
+    "node-red",
+    "webshot",
+    "screenshot",
+    "bluemix"
+  ],
+  "node-red": {
+    "nodes": {
+      "webshot": "webshot.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kotasuizu/node-red-contrib-webshot"
+  },
+  "author": "Kota Suizu",
+  "license": "MIT"
+}
